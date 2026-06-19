@@ -2,10 +2,18 @@
 __pycache__/
 *.py[codz]
 *$py.class
-
+data/
 # C extensions
 *.so
+*.pt
+*.pth
+*.ckpt
 
+gan/checkpoints_gan/
+vae/checkpoints/
+vae/runs/
+gan/runs_gan/
+project_files.zip
 # Distribution / packaging
 .Python
 build/
